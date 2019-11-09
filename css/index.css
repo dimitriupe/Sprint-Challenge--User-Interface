@@ -230,6 +230,81 @@ footer nav a {
     margin-bottom: 30px;
 }
 
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+}
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+}
+
+.container-about-page .about {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.strategy-howwework {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+}
+
+.strategy h2, p, a {
+    margin: 20px 0px 20px 0px;
+}
+
+.howwework h2, p, a {
+    margin: 20px 0px 20px 0px;
+}
+
+.places-collaboration {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-left: 20px;
+}
+
+.places h2, p, a {
+    margin: 20px 0px 20px 0px;
+}
+
+.collaboration {
+    padding-right: 20px;    
+}
+
+.collaboration h2, p, a {
+    margin: 20px 0px 20px 0px;
+}
+
+.lets {
+    padding-left: 20px;
+}
+
 
 
 /* end of about.html */
